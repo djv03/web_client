@@ -1,7 +1,7 @@
 
 import './Navbar.css'
 import { useRef } from 'react'
-import { FaTimes, FaBars } from 'react-icons/fa'
+import { FaTimes } from 'react-icons/fa'
 import  { AiFillCaretDown } from 'react-icons/ai'
 import logo from '../assets/logo.webp'
 function Navbar() {
