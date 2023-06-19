@@ -38,7 +38,6 @@
 }
 @media only screen and (max-width: 1024px) {
     .hero{
-        border: 2px solid red;
         flex-direction: column-reverse;
         margin: 3rem 0 0 0;
         width: 39rem;
@@ -56,5 +55,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .info button{
+        margin-top: 1.3rem;
     }
 }
