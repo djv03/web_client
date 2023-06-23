@@ -1,6 +1,6 @@
 import React from 'react'
 import './Features.css'
-import features_img from '../assets/solution1.webp'
+import features_img from '../assets/benefits_img.webp'
 function Features() {
     return (
         <div className='features'>
