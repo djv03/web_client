@@ -3,7 +3,7 @@ import service1 from '../assets/service1.webp'
 import service2 from '../assets/service2.webp'
 import service3 from '../assets/service3.webp'
 import './Services.css'
-function Portfolio() {
+function Services() {
     return (
         <div className='Services'>
             <h1>What Services I'm Providing</h1>
@@ -41,4 +41,4 @@ function Portfolio() {
     )
 }
 
-export default Portfolio
+export default Services
