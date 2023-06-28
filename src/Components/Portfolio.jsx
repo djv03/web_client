@@ -9,24 +9,21 @@ const Carousel = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const totalSlides = 4; 
     let isMobile= window.innerWidth<1024;
-    console.log(isMobile)
 
   const handlePrevSlide = () => {
-    console.log('prev')
     // document.querySelectorAll('.myimg').style.transform='translateX(-10vw)'
     setCurrentSlide((prevSlide) => (prevSlide === 0 ? totalSlides-1 : prevSlide - 1));
-    console.log(currentSlide)
+    
 };
 
 const handleNextSlide = () => {
     // document.querySelectorAll('.myimg').style.transform='translateX(10vw)'
     setCurrentSlide((prevSlide) => (prevSlide === totalSlides-1 ? 0 : prevSlide + 1));
-    console.log('next')
-    console.log(currentSlide)
+    
    
   };
   const disablePrevButton = currentSlide === 0;
-  const disableNextButton = currentSlide === true;
+  const disableNextButton =(isMobile? currentSlide === totalSlides-1:currentSlide-2)
   return (
     <div className="carousel">
         <h1>My Portfolio</h1>
