@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import Features from './Components/Features';
 import Services from './Components/Services';
 import Portfolio from './Components/Portfolio';
+import Client from './Components/Client';
 function App() {
 	return (
 		<React.Fragment>
@@ -12,6 +13,7 @@ function App() {
 			<Features/>
 			<Services/>
 			<Portfolio/>
+			<Client/>
 		</React.Fragment>
 	);
 }
