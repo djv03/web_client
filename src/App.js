@@ -5,6 +5,8 @@ import Features from './Components/Features';
 import Services from './Components/Services';
 import Portfolio from './Components/Portfolio';
 import Client from './Components/Client';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 function App() {
 	return (
 		<React.Fragment>
@@ -14,6 +16,8 @@ function App() {
 			<Services/>
 			<Portfolio/>
 			<Client/>
+			<Contact/>
+			<Footer/>
 		</React.Fragment>
 	);
 }
