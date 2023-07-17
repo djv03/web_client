@@ -22,8 +22,8 @@ const handleNextSlide = () => {
     
    
   };
-  const disablePrevButton = currentSlide === 0;
-  const disableNextButton =(isMobile? currentSlide === totalSlides-1:currentSlide-2)
+  // const disablePrevButton = currentSlide === 0;
+  // const disableNextButton =(isMobile? currentSlide === totalSlides-1:currentSlide-2)
   return (
     <div className="carousel">
         <h1>My Portfolio</h1>
@@ -37,8 +37,8 @@ const handleNextSlide = () => {
         <img className='myimg'  src={portfolio1} alt=""  />
         </div>
       </div>
-          <button disabled={disablePrevButton}  style={{  cursor: disablePrevButton ? 'not-allowed' : 'pointer',}} className="arrow-button left" onClick={handlePrevSlide}  > &lt;</button>
-          <button disabled={disableNextButton} style={{cursor: disableNextButton ? 'not-allowed' : 'pointer'}} className="arrow-button right" onClick={handleNextSlide}  >  &gt;</button>
+          <button    className="arrow-button left" onClick={handlePrevSlide}  > &lt;</button>
+          <button    className="arrow-button right" onClick={handleNextSlide}  >  &gt;</button>
     </div>
   );
 };

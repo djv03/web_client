@@ -40,7 +40,7 @@
     .hero{
         flex-direction: column-reverse;
         margin: 3rem 0 0 0;
-        width: 39rem;
+        width: 160vw;
     }
     .hero-img{
         border: 2px solid transparent;

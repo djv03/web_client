@@ -11,7 +11,7 @@
 }
 .Services>h1{
     font-size: 2.5rem;
-    text-decoration: underline;
+    border-bottom: 2px solid black;
 }
 .services-section{
     display: flex;

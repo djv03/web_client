@@ -37,7 +37,7 @@
 }
 @media only screen and (max-width: 1024px){
     .footer-section{
-        width: 160%;
+        width: 160vw;
         flex-direction: column;
     }
     .footer-section>div{

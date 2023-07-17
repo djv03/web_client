@@ -7,7 +7,7 @@
 .client-section>h1{
     margin:3rem 0;
     font-size: 3rem;
-    text-decoration: underline;
+    border-bottom: 2px solid black;
 }
 .client-container{
     width: 100%;

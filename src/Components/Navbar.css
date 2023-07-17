@@ -59,7 +59,7 @@ nav{
 }
 @media only screen and (max-width: 1024px) {
     header{
-        width: 39em;
+        width: 160vw;
         display: flex;
         justify-content: space-between;
     }
