@@ -21,6 +21,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 30vw;
 }
 .services-container>img{
@@ -65,12 +66,12 @@
         padding: 23px;
     }
     .services-container>img{
-        height:100%;
-        width: 100%;
+        width: 130vw;
+        height: 100%;
     }
     .services-content{
         padding: 23px;
-        width: 160vw;
+        width: 150vw;
     }
     .services-content>h1{
         font-size: 43px;

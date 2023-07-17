@@ -88,8 +88,8 @@
         font-size: 30px;
     }
     .features-img>img{
-        height: 39rem;
-        width: 39rem;
+        height: 100%;
+        width: 140vw;
        
     }   
 }

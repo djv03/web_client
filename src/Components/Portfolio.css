@@ -6,9 +6,9 @@
     margin: 4rem 0px;
   }
   .carousel>h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     display: flex;
-    margin: auto;
+    margin: 23px auto;
     border-bottom: 2px solid black;
   }
   .slider {

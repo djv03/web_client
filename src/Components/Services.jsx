@@ -6,7 +6,7 @@ import './Services.css'
 function Services() {
     return (
         <div className='Services'>
-            <h1>What Services I'm Providing</h1>
+            <h1>Our Services </h1>
             <div className="services-section">
                 <div className="services-container">
                     <img src={service1} alt="porrfolio1" />
