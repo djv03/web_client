@@ -19,7 +19,9 @@
     font-family: 'Playfair Display', serif;
 }
 .subHeadine{
+    width: 28rem;
     margin-top: 13px;
+    font-weight: lighter;
 }
 .info button{
     padding: 13px;
@@ -45,6 +47,10 @@
     .hero-img{
         border: 2px solid transparent;
         border-radius: 13px;
+        
+    }
+    .headline{
+        font-size: 3.5rem;
     }
     .subHeadine{
         margin-top: 13px;
@@ -54,7 +60,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
     .info button{
         margin-top: 1.3rem;

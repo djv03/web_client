@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 
@@ -11,61 +12,81 @@
 	--secondaryColor: #db2b39;
 	--textColor: #eee;
 }
-header{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 13px;
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 33px;
 }
-header img{
-    height: 2rem;
+
+header img {
+	position: absolute;
+	top: 23px;
+	left: 23px;
+	height: 4rem;
+	width: 8rem;
 }
+
 nav a {
 	margin: 0 1rem;
 	color: black;
 	text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
+	font-size: 1.5rem;
+	font-weight: bold;
 }
 
 nav a:hover {
-	color: rgb(0, 0, 255);
+	color: rgb(1, 1, 120);
 }
-header .nav-btn{
-  visibility: hidden;
-  border: 2px solid transparent;
-  border-radius: 13px;
-  font-size: 1.4rem;
+
+header .nav-btn {
+	visibility: hidden;
+	border: hidden;
+	background-color: white;
+	font-size: 2rem;
 }
 
 header div,
-nav{
-  display: flex;
-  align-items: center;
+nav {
+	display: flex;
+	align-items: center;
 }
-.hire{
-    padding: 13px;
-    font-weight: bolder;
-    font-size: large;
-    background-color: royalblue;
-    color: white;
-    border: 2px solid transparent;
-    border-radius:23px;
-    cursor: pointer;
-    transition: 0.2s
+
+.hire {
+	padding: 13px;
+	font-weight: bolder;
+	font-size: large;
+	background-color: royalblue;
+	color: white;
+	border: 2px solid transparent;
+	border-radius: 23px;
+	cursor: pointer;
+	transition: 0.2s
 }
-.hire:hover{
-    background-color: rgb(43, 73, 163);
+
+.hire:hover {
+	background-color: rgb(43, 73, 163);
 }
+
 @media only screen and (max-width: 1024px) {
-    header{
-        width: 160vw;
-        display: flex;
-        justify-content: space-between;
-    }
- header .nav-btn {
+	header {
+		width: 160vw;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	header img {
+		position: absolute;
+		top: 27px;
+		left: 27px;
+	}
+
+	header .nav-btn {
 		visibility: visible;
 		opacity: 1;
+		font-size: 3rem;
+		padding: 0 13px;
 	}
 
 	header nav {
@@ -91,10 +112,12 @@ nav{
 		position: absolute;
 		top: 2rem;
 		right: 2rem;
+		background-color: #29335c;
+		color: white;
 	}
 
 	nav a {
 		font-size: 1.5rem;
-        color: white;
+		color: white;
 	}
 }

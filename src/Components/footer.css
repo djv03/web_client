@@ -26,7 +26,8 @@
 }
 
 .logo>img{
-    scale: 0.5;
+    height: 3.25rem;
+	width: 6.5rem;
 }
 .contact-email{
     color: white;

@@ -3,12 +3,12 @@ import './Hero.css'
 import hero_img from '../assets/hero_img.webp'
 function Hero() {
   return (
-    <div className='hero'>
+    <div className='hero' id='home'>
       <div className="info">
         <div>
             <h1 className='headline'>Industrial Service Solutions and Automation Provider</h1>
             <h3 className='subHeadine'>Techmiraki provides comprehensive solutions for industrial services including automation, IOT, networking, electrical and instrumentation field work, trusted by leading brands such as SB Chemical, SB Protech, Aarti Papermill, and Coca Cola.</h3>
-            <button>Learn more</button>
+          
         </div>
       </div>
       <div className="hero-img">

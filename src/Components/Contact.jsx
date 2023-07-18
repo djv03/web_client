@@ -6,7 +6,7 @@ function Contact() {
     console.log('cliked')
   }
   return (
-    <div className='contact-section'>
+    <div className='contact-section' id='contact'>
       <h1>Stay In Touch</h1>
       <p>Enter your email address to register to our newsletter subscription!</p>
       <input type="text" placeholder='Enter your email adress' />

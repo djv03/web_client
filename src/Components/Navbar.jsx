@@ -2,8 +2,8 @@
 import './Navbar.css'
 import { useRef } from 'react'
 import { FaTimes } from 'react-icons/fa'
-import  { AiFillCaretDown } from 'react-icons/ai'
-import logo from '../assets/logo.webp'
+import  {AiOutlineMenu } from 'react-icons/ai'
+import logo from '../assets/Logo.jpg'
 function Navbar() {
 
     const navRef = useRef();
@@ -18,10 +18,10 @@ function Navbar() {
                 <img src={logo} alt="profile pic" />
 				</div>
                 <nav ref={navRef}>
-                    <a href="/#">Home </a>
-                    <a href="/#">about</a>
-                    <a href="/#">works</a>
-                    <a href="/#">contact</a>
+                    <a href="#home">Home </a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
                     <button
                         className="nav-btn nav-close-btn"
                         onClick={showNavbar}>
@@ -30,12 +30,13 @@ function Navbar() {
                 </nav>
                 <button
                     className="nav-btn"
+                    id='ham'
                     onClick={showNavbar}>
-                  <span>Explore</span> <AiFillCaretDown/>
+                  <AiOutlineMenu />
                 </button>
-                <button className='hire'>
+                {/* <button className='hire'>
                     Enterprise Solutions
-                </button>
+                </button> */}
             </header>
         </>
     )

@@ -4,7 +4,7 @@ import './footer.css'
 import facebook from '../assets/facebook.png'
 import linkedin from '../assets/linkedin.png'
 import twitter from '../assets/pngtwitter.png'
-import logo from '../assets/logo.webp'
+import logo from '../assets/Logo.jpg'
 function Footer() {
   return (
     <div className='footer-section'>
